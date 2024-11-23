@@ -661,33 +661,15 @@ html {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 320px) {
   .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
+    max-width: 320px;
   }
 }
 
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
   }
 }
 
@@ -1237,6 +1219,20 @@ html {
 :where(.navbar > *:not(script, style)) {
   display: inline-flex;
   align-items: center;
+}
+
+.stat {
+  display: inline-grid;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  border-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-border-opacity)));
+  --tw-border-opacity: 0.1;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .swap {
@@ -2068,13 +2064,12 @@ html {
   margin-right: 4rem;
 }
 
-.my-36 {
-  margin-top: 9rem;
-  margin-bottom: 9rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -2089,20 +2084,12 @@ html {
   display: grid;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-5 {
-  width: 1.25rem;
 }
 
 .w-52 {
@@ -2133,8 +2120,8 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.flex-col {
-  flex-direction: column;
+.place-content-center {
+  place-content: center;
 }
 
 .items-center {
@@ -2312,171 +2299,171 @@ html {
     content: "";
   }
 
-  1.72% {
+  1.33% {
     content: "C";
   }
 
-  2.34% {
+  2.83% {
     content: "Cr";
   }
 
-  3.91% {
+  3.79% {
     content: "Cre";
   }
 
-  4.92% {
+  5.55% {
     content: "Crea";
   }
 
-  6.35% {
+  6.17% {
     content: "Creat";
   }
 
-  7.96% {
+  8.03% {
     content: "Creati";
   }
 
-  9.45% {
+  8.74% {
     content: "Creativ";
   }
 
-  10.71%, 27.96% {
+  10.65%, 27.89% {
     content: "Creative";
   }
 
-  28.39% {
+  28.32% {
     content: "Creativ";
   }
 
-  28.82% {
+  28.75% {
     content: "Creati";
   }
 
-  29.25% {
+  29.18% {
     content: "Creat";
   }
 
-  29.68% {
+  29.62% {
     content: "Crea";
   }
 
-  30.11% {
+  30.05% {
     content: "Cre";
   }
 
-  30.54% {
+  30.48% {
     content: "Cr";
   }
 
-  30.97% {
+  30.91% {
     content: "C";
   }
 
-  31.4% {
+  31.34% {
     content: "";
   }
 
-  32.98% {
+  32.93% {
     content: "D";
   }
 
-  33.75% {
+  34.19% {
     content: "Di";
   }
 
-  35.61% {
+  34.88% {
     content: "Dis";
   }
 
-  36.64% {
+  36.84% {
     content: "Disc";
   }
 
-  37.95% {
+  37.86% {
     content: "Disci";
   }
 
-  39.31% {
+  39.01% {
     content: "Discip";
   }
 
-  40.15% {
+  40.75% {
     content: "Discipl";
   }
 
-  41.75% {
+  41.5% {
     content: "Discipli";
   }
 
-  42.99% {
+  43.1% {
     content: "Disciplin";
   }
 
-  44.01%, 61.25% {
+  43.98%, 61.22% {
     content: "Discipline";
   }
 
-  61.68% {
+  61.65% {
     content: "Disciplin";
   }
 
-  62.11% {
+  62.08% {
     content: "Discipli";
   }
 
-  62.54% {
+  62.51% {
     content: "Discipl";
   }
 
-  62.97% {
+  62.94% {
     content: "Discip";
   }
 
-  63.4% {
+  63.37% {
     content: "Disci";
   }
 
-  63.84% {
+  63.8% {
     content: "Disc";
   }
 
-  64.27% {
+  64.23% {
     content: "Dis";
   }
 
-  64.7% {
+  64.67% {
     content: "Di";
   }
 
-  65.13% {
+  65.1% {
     content: "D";
   }
 
-  65.56% {
+  65.53% {
     content: "";
   }
 
-  67.33% {
+  67.26% {
     content: "C";
   }
 
-  68.22% {
+  67.65% {
     content: "Co";
   }
 
-  69.76% {
+  69.28% {
     content: "Con";
   }
 
-  70.28% {
+  71.13% {
     content: "Cons";
   }
 
-  72.2% {
+  72.34% {
     content: "Consi";
   }
 
-  73.78% {
+  72.82% {
     content: "Consis";
   }
 
@@ -2484,55 +2471,55 @@ html {
     content: "Consist";
   }
 
-  76.33% {
+  75.74% {
     content: "Consiste";
   }
 
-  76.82% {
+  77.07% {
     content: "Consisten";
   }
 
-  78.6%, 95.84% {
+  78.41%, 95.65% {
     content: "Consistent";
   }
 
-  96.28% {
+  96.08% {
     content: "Consisten";
   }
 
-  96.71% {
+  96.51% {
     content: "Consiste";
   }
 
-  97.14% {
+  96.94% {
     content: "Consist";
   }
 
-  97.57% {
+  97.37% {
     content: "Consis";
   }
 
-  98% {
+  97.8% {
     content: "Consi";
   }
 
-  98.43% {
+  98.24% {
     content: "Cons";
   }
 
-  98.86% {
+  98.67% {
     content: "Con";
   }
 
-  99.29% {
+  99.1% {
     content: "Co";
   }
 
-  99.72% {
+  99.53% {
     content: "C";
   }
 
-  100.15% {
+  99.96% {
     content: "";
   }
 }
@@ -2560,18 +2547,155 @@ html {
   background-color: rgb(250 189 47 / var(--tw-bg-opacity, 1));
 }
 
-@media (min-width: 768px) {
-  .md\:place-self-center {
-    place-self: center;
+@media (min-width: 320px) {
+  .mobile\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .md\:justify-self-end {
-    justify-self: end;
+  .mobile\:-ml-\[0\.83rem\] {
+    margin-left: -0.83rem;
+  }
+
+  .mobile\:ml-\[2rem\] {
+    margin-left: 2rem;
+  }
+
+  .mobile\:mr-\[2rem\] {
+    margin-right: 2rem;
+  }
+
+  .mobile\:flex {
+    display: flex;
+  }
+
+  .mobile\:min-h-screen {
+    min-height: 100vh;
+  }
+
+  .mobile\:w-\[13rem\] {
+    width: 13rem;
+  }
+
+  .mobile\:w-\[18rem\] {
+    width: 18rem;
+  }
+
+  .mobile\:flex-col {
+    flex-direction: column;
+  }
+
+  .mobile\:items-center {
+    align-items: center;
+  }
+
+  .mobile\:justify-center {
+    justify-content: center;
+  }
+
+  .mobile\:gap-4 {
+    gap: 1rem;
+  }
+
+  .mobile\:text-\[10px\] {
+    font-size: 10px;
+  }
+
+  .mobile\:text-\[15px\] {
+    font-size: 15px;
+  }
+
+  .min-\[320px\]\:text-center {
+    text-align: center;
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:flex-row-reverse {
+@media (min-width: 1280px) {
+  @media (min-width: 320px) {
+    .desktop\:mobile\:flex {
+      display: flex;
+    }
+  }
+
+  .desktop\:m-36 {
+    margin: 9rem;
+  }
+
+  .desktop\:my-36 {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+
+  .desktop\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .desktop\:mx-36 {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
+  .desktop\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .desktop\:ml-36 {
+    margin-left: 9rem;
+  }
+
+  .desktop\:mr-36 {
+    margin-right: 9rem;
+  }
+
+  .desktop\:flex {
+    display: flex;
+  }
+
+  .desktop\:min-h-0 {
+    min-height: 0px;
+  }
+
+  .desktop\:w-96 {
+    width: 24rem;
+  }
+
+  .desktop\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .desktop\:flex-row {
+    flex-direction: row;
+  }
+
+  .desktop\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .desktop\:items-start {
+    align-items: flex-start;
+  }
+
+  .desktop\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .desktop\:gap-4 {
+    gap: 1rem;
+  }
+
+  .desktop\:text-start {
+    text-align: start;
+  }
+
+  .desktop\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .desktop\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }

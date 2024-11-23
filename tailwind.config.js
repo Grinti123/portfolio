@@ -5,6 +5,11 @@ module.exports = {
     themes: ["business"],
   },
   theme: {
+    screens: {
+      'mobile': '320px',
+      'laptop': '1280px',
+      'desktop': '1280px'
+    },
     colors: {
       'orangegruvbox' : '#fabd2f',
       'darkgruvbox' : '#1d2021'
