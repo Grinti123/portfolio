@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
     <!-- Style -->
-    <link href="./output.css" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 </head>
 <body class="font-jetbrains">
     <!-- Navbar -->
-    <div class="navbar bg-orangegruvbox">
+    <div class="navbar bg-orangegruvbox" id="hero">
       <div class="flex-1">
         <a class="btn btn-ghost text-xl text-darkgruvbox">MIRZA AGIL RAMADHAN.</a>
       </div>
@@ -21,28 +21,17 @@
         <div class="dropdown dropdown-end">
           <div tabindex="0" role="button" class="btn btn-ghost btn-circle hover:border-[#1d2021] transition duration-300 ease-in">
             <div class="indicator">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="#1d2021">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 48 48"><path fill="none" stroke="#1d2021" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M7.95 11.95h32m-32 12h32m-32 12h32"/></svg>
             </div>
           </div>
           <div
             tabindex="0"
             class="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
             <div class="card-body">
-              <span class="text-lg font-bold">8 Items</span>
-              <span class="text-info">Subtotal: $999</span>
+              <span class="text-lg font-bold">Active</span>
+              <span class="text-info">Online</span>
               <div class="card-actions">
-                <button class="btn btn-primary btn-block">View cart</button>
+                <a href="#Contact"><button class="btn btn-primary btn-block">Contact Me</button></a>
               </div>
             </div>
           </div>
@@ -52,20 +41,20 @@
             <div class="w-10 rounded-full">
               <img
                 alt="Tailwind CSS Navbar component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                src="./src/img/ucarecdn.jpeg" />
             </div>
           </div>
           <ul
             tabindex="0"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li>
-              <a class="justify-between">
+              <a class="justify-between" href="#hero">
                 Profile
-                <span class="badge">New</span>
+                <span class="badge"></span>
               </a>
             </li>
-            <li><a>Settings</a></li>
-            <li><a>Logout</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
           </ul>
         </div>
       </div>
@@ -77,7 +66,7 @@
          <div class="card card-bordered rounded-xl hover:border-[#fabd2f] transition duration-300 ease-in bg-base-100 w-96 shadow-xl mx-16">
           <figure>
             <img
-              src="img/ucarecdn.jpeg"
+              src="./src/img/ucarecdn.jpeg"
               alt="Shoes" />
           </figure>
           <div class="card-body">
@@ -90,14 +79,14 @@
           <div>
             <span class="type-hero text-3xl font-bold text-orangegruvbox"></span>
             <p class="py-6 w-96 text-justify">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla consequuntur deserunt recusandae veniam eligendi. Mollitia minus harum architecto assumenda iste repellat ea, ex doloribus voluptatem officia earum delectus quis necessitatibus velit temporibus numquam itaque saepe quasi! Iure deleniti optio accusantium, at, minima amet doloremque, odio corrupti in cum quo.
+              Highly motivated and adaptable Information Systems student at Indraprasta PGRI University with a strong interest in technology and programming. Proven ability to work independently and as part of a team. Eager to learn new technologies and contribute to innovative projects.
             </p>
             <button class="btn bg-orangegruvbox text-darkgruvbox rounded-lg hover:bg-orangegruvbox">Get Started</button>
           </div>
         </div>
       </div>
       <!-- Divider -->
-      <div class="divider divider-warning">Projects</div>
+      <div class="divider divider-warning" id="projects">Projects</div>
       <!-- Section -->
        <section>
        <div class="container m-auto grid grid-cols-3 gap-4">
@@ -141,7 +130,7 @@
       </div>
     </section>
         <!-- Divider -->
-        <div class="divider divider-warning">Skills</div>
+        <div class="divider divider-warning" id="skills">Skills</div>
       <!-- Table -->
        <section>
       <div class="overflow-x-auto">
@@ -182,7 +171,7 @@
       </div>
     </section>
       <!-- Divider -->
-      <div class="divider divider-warning">Contact</div>
+      <div class="divider divider-warning" id="Contact">Contact</div>
       <!-- Contact -->
       <section>
         <div class="container m-auto grid grid-cols-2 gap-4">
