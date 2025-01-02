@@ -2016,10 +2016,6 @@ html {
   flex: none;
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -2237,227 +2233,227 @@ html {
     content: "";
   }
 
-  1.55% {
+  1.66% {
     content: "C";
   }
 
-  2.11% {
+  2.32% {
     content: "Cr";
   }
 
-  3.57% {
+  4.25% {
     content: "Cre";
   }
 
-  5.25% {
+  5.38% {
     content: "Crea";
   }
 
-  6.66% {
+  6.87% {
     content: "Creat";
   }
 
-  7.82% {
+  7.66% {
     content: "Creati";
   }
 
-  9.15% {
+  8.98% {
     content: "Creativ";
   }
 
-  10.22%, 27.46% {
+  9.86%, 27.1% {
     content: "Creative";
   }
 
-  27.89% {
+  27.53% {
     content: "Creativ";
   }
 
-  28.32% {
+  27.96% {
     content: "Creati";
   }
 
-  28.75% {
+  28.39% {
     content: "Creat";
   }
 
-  29.18% {
+  28.82% {
     content: "Crea";
   }
 
-  29.61% {
+  29.25% {
     content: "Cre";
   }
 
-  30.04% {
+  29.68% {
     content: "Cr";
   }
 
-  30.48% {
+  30.12% {
     content: "C";
   }
 
-  30.91% {
+  30.55% {
     content: "";
   }
 
-  32.03% {
+  31.85% {
     content: "D";
   }
 
-  33.13% {
+  33.39% {
     content: "Di";
   }
 
-  35.16% {
+  34.42% {
     content: "Dis";
   }
 
-  36.54% {
+  35.87% {
     content: "Disc";
   }
 
-  37.43% {
+  36.57% {
     content: "Disci";
   }
 
-  38.45% {
+  38.35% {
     content: "Discip";
   }
 
-  40.24% {
+  39.67% {
     content: "Discipl";
   }
 
-  41.36% {
+  40.93% {
     content: "Discipli";
   }
 
-  42.72% {
+  41.75% {
     content: "Disciplin";
   }
 
-  44.28%, 61.52% {
+  43.33%, 60.57% {
     content: "Discipline";
   }
 
-  61.95% {
+  61.01% {
     content: "Disciplin";
   }
 
-  62.38% {
+  61.44% {
     content: "Discipli";
   }
 
-  62.81% {
+  61.87% {
     content: "Discipl";
   }
 
-  63.24% {
+  62.3% {
     content: "Discip";
   }
 
-  63.68% {
+  62.73% {
     content: "Disci";
   }
 
-  64.11% {
+  63.16% {
     content: "Disc";
   }
 
-  64.54% {
+  63.59% {
     content: "Dis";
   }
 
-  64.97% {
+  64.02% {
     content: "Di";
   }
 
-  65.4% {
+  64.45% {
     content: "D";
   }
 
-  65.83% {
+  64.89% {
     content: "";
   }
 
-  67.32% {
+  66.06% {
     content: "C";
   }
 
-  68.56% {
+  67.76% {
     content: "Co";
   }
 
-  69.4% {
+  68.8% {
     content: "Con";
+  }
+
+  69.74% {
+    content: "Cons";
   }
 
   70.97% {
-    content: "Cons";
-  }
-
-  71.99% {
     content: "Consi";
   }
 
-  73.4% {
+  72.54% {
     content: "Consis";
   }
 
-  74.8% {
+  73.44% {
     content: "Consist";
   }
 
-  76.2% {
+  75.73% {
     content: "Consiste";
   }
 
-  77.33% {
+  76.41% {
     content: "Consisten";
   }
 
-  78.96%, 96.2% {
+  78.24%, 95.48% {
     content: "Consistent";
   }
 
-  96.63% {
+  95.91% {
     content: "Consisten";
   }
 
-  97.07% {
+  96.34% {
     content: "Consiste";
   }
 
-  97.5% {
+  96.77% {
     content: "Consist";
   }
 
-  97.93% {
+  97.2% {
     content: "Consis";
   }
 
-  98.36% {
+  97.63% {
     content: "Consi";
   }
 
-  98.79% {
+  98.06% {
     content: "Cons";
   }
 
-  99.22% {
+  98.5% {
     content: "Con";
   }
 
-  99.65% {
+  98.93% {
     content: "Co";
   }
 
-  100.08% {
+  99.36% {
     content: "C";
   }
 
-  100.51% {
+  99.79% {
     content: "";
   }
 }
@@ -2548,8 +2544,12 @@ html {
     justify-content: center;
   }
 
-  .mobile\:text-\[10px\] {
-    font-size: 10px;
+  .mobile\:text-center {
+    text-align: center;
+  }
+
+  .mobile\:text-start {
+    text-align: start;
   }
 
   .mobile\:text-\[15px\] {
@@ -2593,6 +2593,10 @@ html {
 
   .desktop\:gap-12 {
     gap: 3rem;
+  }
+
+  .desktop\:text-justify {
+    text-align: justify;
   }
 
   .desktop\:text-xl {
